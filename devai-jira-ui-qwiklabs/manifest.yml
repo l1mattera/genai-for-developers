@@ -15,3 +15,12 @@ resources:
     path: src/frontend/index.jsx
 app:
   id: ari:cloud:ecosystem::app/7d30def6-cd61-44da-aa13-af20196d240b
+
+permissions:
+  scopes:
+    - read:jira-work
+    - write:jira-work
+  external:
+    fetch:
+      client:
+        - devai-api-uby45bnw4a-uc.a.run.app/generate # example
